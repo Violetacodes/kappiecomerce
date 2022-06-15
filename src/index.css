@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: #FAE6C9;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.block{
+  display: flex;
+  justify-content: center;
+}
+
+.blocktwo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.blockthree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-card{
+ 
+  padding: 10px;
+}
+.imgimg {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.cartbtn{
+width: 30px;
+background-color: #FAE6C9;
+}
+.cartbtn{
+  cursor: pointer;
+  
+}
+button{
+  background-color: #FAE6C9;
+  border: none;
+}
+
+.btn{
+  border: 2px solid #886406;
+font-size: 30px;
+width: 70px;
+text-align: center;
+}
+
+.choose {
+  color: #BC2692;
+  font-size: 45px;
+}
+
+.words{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.cartIcon{
+  width: 50px;
+}
+
+.categoryButtonSelected{
+  background-color: #e598dd;
+  padding: 5px;
+}
+
+.categoryButton:hover{
+  background-color: #ffe565;
+}
+
+.categoryButton{
+  cursor: pointer;
+  padding: 5px;
+}
+
+.cartpicture{
+  width: 100px;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.small{
+  display: flex;
+ flex-direction: column;
+  background-color: #9f8769 ;
+  width: 50%;
+  color: white;
+}
+
+.cartbtn7{
+  width: 30px;
+  background-color: #9f8769 ;
+  }
+.big{
+  display: flex;
+}
+.cart{
+  color: red;
+}
