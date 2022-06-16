@@ -6,6 +6,7 @@ import cart from "./cart.png";
 
 const Product = ({element}) => {
     const[quantity, setQuantity] = useState(1);
+
     const dispatch = useDispatch()
     return(
         <div className="product-card">
@@ -16,7 +17,7 @@ const Product = ({element}) => {
     <ChangeQuantity quantity= {quantity} setQuantity={setQuantity}/>
     </div>
     <button onClick={() => {dispatch(addItemToCart({element, quantity}))}}><img className="cartbtn" src={cart} alt="cartbt"/></button>
-    
+   
 <h2>{element.name}</h2>
 <span>{element.description}</span>
 <p>$ {element.price}</p>

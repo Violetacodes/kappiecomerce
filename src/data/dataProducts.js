@@ -288,7 +288,7 @@ const dataProducts = [
     category: 'rings'
   },
   {
-    id: 20,
+    id: 21,
   
     price: 55,
   
