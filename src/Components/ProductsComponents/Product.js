@@ -4,7 +4,7 @@ import { addItemToCart } from "../../redux/cartSlice";
 import ChangeQuantity from "../Cart/ChangeQuantity";
 import cart from "./cart.png";
 
-const Product = ({element}) => {
+export const Product = ({element}) => {
     const[quantity, setQuantity] = useState(1);
 
     const dispatch = useDispatch()

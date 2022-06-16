@@ -1,17 +1,31 @@
-const Welcome = () => {
+import { motion } from "framer-motion"
+
+export const Welcome = () => {
+
     return(
-        <div>
-            <div className="delivery">
+    <div>
+            <motion.div
+        className="delivery"
+        animate={{scale: [2, 1, 1] }}
+        transition={{   type: 'spring',
+        duration: 2}}
+    
+        >
                 <p>DELIVERY IS FREE starting from $89</p>
-                
-            </div>
+                </motion.div>
+
             <div className="kappie">
                 <div>
                     <p>Kappie accessories</p>
                 </div>
             </div>
-        </div>
+            </div>
+        
+      
+        
     )
 }
 
 export default Welcome;
+
+
