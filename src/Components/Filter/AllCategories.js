@@ -16,7 +16,7 @@ const AllCategories = () => {
         <div className="blockthree">
             <h1 className="choose">Choose what suits you best</h1>
             <div className="block">
-            {["rings", "earrings", "pendants", "bracelets", "all"].map(category => <Filter category={category} />)
+            {["rings", "earrings", "pendants", "bracelets", "all"].map((category, index)=> <Filter category={category} key={index} />)
             }
             </div>
         </div>

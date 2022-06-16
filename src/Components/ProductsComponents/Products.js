@@ -12,7 +12,7 @@ const Products = () => {
                if (selectedCategory === "all") return true;
                return selectedCategory === product.category;
            })
-           .map(element => <Product element ={element} /> 
+           .map((element, index) => <Product element ={element} key={index} /> 
               
            )}
         </div>
