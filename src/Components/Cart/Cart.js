@@ -5,11 +5,14 @@ import cart from "./../ProductsComponents/cart.png";
 
 const Cart = () => {
 
+
     const cartItems = useSelector(getCartItems);
     const totalPrice = useSelector(getTotalPrice);
     const totalArticles = useSelector(getTotalArticles);
+
    
     return(
+      
         <div className="big">
         <div className="small">
             <p className="bold">Cart <img className="cartbtn7" src={cart} alt="cartbt"/> | Total: $ {totalPrice}</p>

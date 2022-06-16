@@ -122,3 +122,68 @@ text-align: center;
 .cart{
   color: red;
 }
+
+.delivery{
+  background-color: #c67dbe;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.kappie{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bolder;
+  background-image: url(https://images.unsplash.com/photo-1613087088715-4b613e9b4d68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fae5ca;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+}
+
+.absolute{
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.express{
+  font-style: oblique;
+  font-size: 42px;
+  font-weight: 900;
+  color:#400d3db8 ;
+  background-color: #ece3d662;
+  padding: 10px;
+}
+
+.all{
+  padding: 20px;
+  background-color: #e69cd5fd;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+

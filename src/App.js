@@ -11,6 +11,8 @@ import {
   Link
 } from "react-router-dom";
 import Cart from './Components/Cart/Cart';
+import Welcome from './Components/ProductsComponents/Welcome';
+import Bottom from './Bottom';
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
   return (
 
     <div>
+       <Welcome />
       <Router>
         <nav className='block'>
         <Link to="/" className='link'>Home <img className="cartbtn" src='https://img.icons8.com/material-sharp/2x/home.png' alt='homebtn' /></Link>
@@ -30,7 +33,8 @@ function App() {
 
         </Routes>
       </Router>
-  
+      
+  <Bottom />
     </div>
   );
 }
