@@ -16,12 +16,14 @@ import Welcome from './Components/ProductsComponents/Welcome';
 import Bottom from './Bottom';
 import About from './About';
 import Contact from './Contact';
+import Login from './Login';
+import { useAuth0 } from '@auth0/auth0-react';
 
 
 function App() {
 const totalArticles = useSelector(getTotalArticles);
-
-
+const {isLoading} = useAuth0();
+if(isLoading) return <h3>Wait a few seconds...</h3>
   return (
     <div>
        <Welcome />
@@ -33,16 +35,19 @@ const totalArticles = useSelector(getTotalArticles);
         <p className='border'></p>
         <Link to="/contact" className='link'>Contact <img className="cartbtn" src='https://img.icons8.com/external-outline-wichaiwi/344/external-contact-business-outline-wichaiwi.png' alt='homebtn' /></Link>
         <p className='border'></p>
+        <Link to="/login" className='link'>My<img className="cartbtn" src='https://img.icons8.com/external-bearicons-detailed-outline-bearicons/344/external-Log-in-social-media-bearicons-detailed-outline-bearicons.png' alt='homebtn' /></Link>
+        <p className='border'></p>
         <Link to="/cart" className="link cart"><img className="cartbtn" src={cart} alt="cartbt"/>{totalArticles}</Link>
-        
+ 
        
         </nav>
         <Routes>
         <Route path='/' element={<Main/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path='/cart' element={<Cart/>}/>
-
+       
         </Routes>
       </Router>
       

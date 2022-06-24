@@ -49,7 +49,7 @@ export const CheckoutForm = () => {
         <CardElement />
       <button className="pay">Pay</button>
       <div>
-      Enter 4242 4242 4242 4242 as the card number.
+      *Enter 4242 4242 4242 4242 as the card number.
       Enter any future date for card expiry, any 3-digit number for CVC and billing postal code.
       </div>
 

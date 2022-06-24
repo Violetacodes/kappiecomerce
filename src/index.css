@@ -298,3 +298,29 @@ nav{
   justify-content: space-evenly;
 }
 
+.login{
+  padding: 20px;
+  background-color: #715a3f;
+  color: white;
+  font-family: 'Stoke', serif;
+  margin: 20px;
+
+}
+
+.display{
+  display: flex;
+  justify-content: center;
+
+}
+
+.woow{
+  background-color: #77ef834a;
+  padding: 20px;
+}
+
+.woowza{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  background-color: rgba(116, 255, 116, 0.315);
+}
