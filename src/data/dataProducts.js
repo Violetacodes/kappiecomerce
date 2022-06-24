@@ -303,3 +303,35 @@ const dataProducts = [
   ] 
   
   export default dataProducts;
+
+  export const info = [
+    {
+        about: "Laura, Jeckie, Elsa, Jony created Kappie accessories. They were inspired my their classmate Fuccio Macciulini who created a tote bag, so ladies decided to create as wells something unique and beautiful. Accessories provide interest to your outfit.  Without them, it’s too easy to become bored with your wardrobe.",
+        year: "1970",
+        historyimage: "https://images.unsplash.com/photo-1522001947148-8b4dfe064edc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80",
+    },
+
+    {
+      about: "The key to successful accessorizing is to find and wear accessories in your style.  There is a style that suits every woman and every style. When you get into the swing of it, adding an accessory, or two, or three, will feel like a natural way to complete an outfit, even if you’re working from home and no-one but the postman and the cat will see what you’re wearing. Successful accessorising is wearing only those accessories that work for you.",
+      year: "1994",
+      historyimage: "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    },
+
+    {
+      about: "Accessories add personality to your look and give you an opportunity to express your unique personal style. Whether your jewelry box contains just one nice watch or a host of bangles, statement necklaces, chandelier earrings, and chokers, you probably turn to jewelry when you’re looking to add a little sparkle to your look. What do you feel like wearing? What feels like ‘you’? Ask these questions and see what answers appear!",
+      year: "2007",
+      historyimage: "https://images.unsplash.com/photo-1603974372039-adc49044b6bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80",
+    },
+
+    {
+      about: "Kappie Accessories can be the starting point of creating a unique ensemble that makes you look and feel great – they needn’t be the final consideration and pieces you add once you’re already dressed. If you’re new to jewelry, start with a subtle piece of jewelry like little diamond studs, thin hoop earrings, or a delicate pendant necklace—classic pieces that will work with almost anything.",
+      year: "2016",
+      historyimage: "https://images.unsplash.com/photo-1600721391776-b5cd0e0048f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+    },
+
+    {
+      about: "The latest collection DIVA was born, it gives a customer a feeling to be a special one. For any occasion, it's possible to find anything you would love to at Kappie accessories. If you feel overwhelmed by accessory options, choose just one statement piece that makes you feel great and that you can wear with multiple outfits. ",
+      year: "2022",
+      historyimage: "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+    }
+]

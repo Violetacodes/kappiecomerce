@@ -27,6 +27,16 @@ body{
 .block{
   display: flex;
   justify-content: center;
+  
+}
+
+.blockhome {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about {
+  color: black;
 }
 
 .blocktwo{
@@ -49,13 +59,13 @@ body{
 }
 
 .cartbtn{
-width: 30px;
-background-color: #FAE6C9;
+width: 40px;
 }
 .cartbtn{
   cursor: pointer;
   
 }
+
 button{
   background-color: #FAE6C9;
   border: none;
@@ -110,6 +120,8 @@ text-align: center;
   background-color: #9f8769 ;
   width: 50%;
   color: white;
+  padding: 20px;
+
 }
 
 .cartbtn7{
@@ -118,6 +130,8 @@ text-align: center;
   }
 .big{
   display: flex;
+  justify-content: space-evenly;
+
 }
 .cart{
   color: red;
@@ -138,12 +152,12 @@ text-align: center;
   font-weight: bolder;
   background-image: url(https://images.unsplash.com/photo-1613087088715-4b613e9b4d68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #6e0f53;
 }
 nav{
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #fae5ca;
 }
 
 .container{
@@ -161,7 +175,7 @@ nav{
 
 .express{
   font-style: oblique;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 900;
   color:#400d3db8 ;
   background-color: #ece3d662;
@@ -180,10 +194,107 @@ nav{
 .bottom {
   display: flex;
   justify-content: center;
-  padding: 10px;
-  background-color: black;
+  padding: 20px;
+  background-color: rgb(49, 47, 47);
   color: white;
   font-weight: 600;
   font-size: 15px;
+}
+
+.show{
+  display: none;
+}
+
+.showmore{
+  display: inline-block;
+}
+
+.chekout{
+  background-color: #FAE6C9;
+  color: black;
+  padding: 5px;
+}
+
+.pay{
+  background-color: #d19b59;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: medium;
+}
+
+.pay:hover {
+  background-color: #e8d5ba;
+  color: #886406;
+  border: 1px solid #886406;
+}
+.bot{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formsubmit{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  color: white;
+}
+
+.inp {
+  background-color: #FAE6C9;
+  
+}
+
+.bottomtwo{
+  background-color: #312f2f;
+}
+
+.color{
+  color: white;
+}
+
+.about {
+  border-right: 1px solid white;
+  height: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.abouttwo{
+  font-size: 20px;
+}
+.border{
+  border-right: 1px solid black;
+  height: 7px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.but{
+  font-size: 15px;
+  padding: 7px;
+  margin: 2px;
+  background-color: #715a3f;
+  color: white;
+  border: 1px solid white;
+}
+
+.containerabout{
+ 
+  margin: 60px;
+}
+
+.font {
+  font-family: 'Stoke', serif;
+}
+
+.questions{
+  color: #6e0f53;
+}
+
+.gifs{
+  display: flex;
+  justify-content: space-evenly;
 }
 

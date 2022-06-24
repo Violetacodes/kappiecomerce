@@ -14,11 +14,12 @@ export const Welcome = () => {
                 <p>DELIVERY IS FREE starting from $89</p>
                 </motion.div>
 
-            <div className="kappie">
+            <div className="kappie font">
                 <div>
                     <p>Kappie accessories</p>
                 </div>
             </div>
+
             </div>
         
       
