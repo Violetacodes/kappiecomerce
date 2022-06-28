@@ -27,12 +27,13 @@ body{
 .block{
   display: flex;
   justify-content: center;
-  
+  flex-wrap: wrap;
 }
 
 .blockhome {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .about {
@@ -48,6 +49,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 .product-card{
  
@@ -121,6 +123,7 @@ text-align: center;
   width: 50%;
   color: white;
   padding: 20px;
+  flex-wrap: wrap;
 
 }
 
@@ -131,6 +134,7 @@ text-align: center;
 .big{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 
 }
 .cart{
@@ -143,6 +147,7 @@ text-align: center;
   justify-content: center;
   font-size: 15px;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .kappie{
@@ -153,6 +158,7 @@ text-align: center;
   background-image: url(https://images.unsplash.com/photo-1613087088715-4b613e9b4d68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #6e0f53;
+  flex-wrap: wrap;
 }
 nav{
   position: sticky;
@@ -177,6 +183,7 @@ nav{
   display: flex;
   justify-content: center;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 .container{
   position: relative;
@@ -201,10 +208,12 @@ nav{
 
 .show{
   display: none;
+  flex-wrap: wrap;
 }
 
 .showmore{
   display: inline-block;
+  flex-wrap: wrap;
 }
 
 .chekout{
@@ -230,6 +239,7 @@ nav{
 .bot{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .formsubmit{
@@ -237,6 +247,7 @@ nav{
   justify-content: center;
   padding: 15px;
   color: white;
+  flex-wrap: wrap;
 }
 
 .inp {
@@ -294,6 +305,7 @@ nav{
 .gifs{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .login{
@@ -308,6 +320,7 @@ nav{
 .display{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
 }
 
@@ -321,5 +334,6 @@ nav{
   justify-content: center;
   font-size: 15px;
   background-color: rgba(116, 255, 116, 0.315);
+  flex-wrap: wrap
 }
 
