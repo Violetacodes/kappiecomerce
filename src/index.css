@@ -341,11 +341,11 @@ nav{
 @media all and (max-width:500px){
   .express{
     font-style: oblique;
-    font-size: 25px;
+    font-size: 10px;
     font-weight: 900;
     color:#400d3db8 ;
     background-color: #ece3d662;
-    padding: 5px;
+    padding: 1px;
   }
 
   .all{
