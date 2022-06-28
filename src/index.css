@@ -176,9 +176,10 @@ nav{
 }
 
 .all{
-  padding: 20px;
+  padding: 10px;
   color: black;
-  font-size: large;
+  background-color: #e8d5ba30;
+  font-size: 15px;
   text-decoration: none;
   display: flex;
   justify-content: center;
