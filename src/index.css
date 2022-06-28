@@ -160,19 +160,6 @@ nav{
   z-index: 100;
 }
 
-.container{
-  position: relative;
-  text-align: center;
-}
-
-.absolute{
-  position: absolute;
-  top: 200px;
-  left: 25px;
-  bottom: 30px;
-  letter-spacing: 1px;
-}
-
 .express{
   font-style: oblique;
   font-size: 32px;
@@ -184,13 +171,24 @@ nav{
 
 .all{
   padding: 20px;
-  background-color: #e69cd5fd;
   color: white;
   font-size: large;
   text-decoration: none;
-
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
-
+.container{
+  position: relative;
+  text-align: center;
+}
+.absolute{
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  bottom: 30px;
+  letter-spacing: 1px;
+}
 .bottom {
   display: flex;
   justify-content: center;
@@ -324,3 +322,4 @@ nav{
   font-size: 15px;
   background-color: rgba(116, 255, 116, 0.315);
 }
+
