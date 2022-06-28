@@ -337,3 +337,39 @@ nav{
   flex-wrap: wrap
 }
 
+@media all and (max-width:500px){
+  .express{
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: 900;
+    color:#400d3db8 ;
+    background-color: #ece3d662;
+    padding: 5px;
+  }
+
+  .all{
+    background-color: #9f8769;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+
+  .choose {
+    color: #BC2692;
+    font-size: 30px;
+  }
+  .blockhome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .link{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+  }
+}
