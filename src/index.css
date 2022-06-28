@@ -177,7 +177,7 @@ nav{
 
 .all{
   padding: 20px;
-  color: white;
+  color: black;
   font-size: large;
   text-decoration: none;
   display: flex;
@@ -348,14 +348,7 @@ nav{
   }
 
   .all{
-    background-color: #9f8769;
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    flex-wrap: wrap;
+  display: none;
   }
 
   .choose {
