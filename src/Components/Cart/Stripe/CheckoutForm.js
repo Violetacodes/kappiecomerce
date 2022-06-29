@@ -1,14 +1,15 @@
 import React, { useState } from "react";
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import axios from "axios";
-// import {getTotalPrice} from "../../../redux/cartSlice";
+import {getTotalPrice} from "../../../redux/cartSlice";
 
 export const CheckoutForm = () => {
   const stripe = useStripe();
   const elements = useElements();
   const [messageSuccess, setMessageSuccess] = useState(false);
-//   const totalPrice = useSelector(getTotalPrice);
+  const totalPrice = useSelector(getTotalPrice);
+  const amountForStripe = totalPrice * 100;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -24,7 +25,7 @@ export const CheckoutForm = () => {
         const response = await axios.post(
           "http://localhost:8080/stripe/charge",
           {
-            amount: 999,
+            amount: amountForStripe,
             id: id,
           }
         );
